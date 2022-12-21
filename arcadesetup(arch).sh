@@ -5,6 +5,7 @@ sudo pacman -S libretro
 sudo pacman -S python
 python editgrub.py
 mkdir ~/scripts
+mkdir ~/romsforretro
 echo "
 #!/bin/bash
 retroarch -L /usr/lib/libretro/mame_libretro.so ~/romsforretro/galaga.zip
