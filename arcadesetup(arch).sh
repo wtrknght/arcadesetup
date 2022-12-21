@@ -2,6 +2,8 @@
 bash panel.sh
 sudo pacman -S retroarch
 sudo pacman -S libretro
+sudo pacman -S python
+python editgrub.py
 mkdir ~/scripts
 echo "
 #!/bin/bash
