@@ -5,6 +5,6 @@ for line in file:
     new_line = line.replace("GRUB_TIMEOUT=\\"5\\"", "GRUB_TIMEOUT=\\"0\\"")
     replaced_content = replaced_content + new_line + "\n"
 file.close()
-write_file = open("demo.txt", "w")
+write_file = open("/etc/default/grub", "w")
 write_file.write(replaced_content)
 write_file.close()
